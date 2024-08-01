@@ -119,7 +119,7 @@ export const BentoGridItem = ({
           {/* Left section for description/title */}
           <div className="text-section flex flex-col justify-center md:w-1/2">
             <div className="font-sans font-extraLight text-[#c1c2d3] text-sm md:text-base lg:text-lg mb-4">
-              {description}
+             {description}
             </div>
             <div className="font-sans font-bold text-lg lg:text-3xl max-w-96">
               {title}
@@ -128,7 +128,7 @@ export const BentoGridItem = ({
           
           {/* Right section for technology tags */}
           <div className="tags-section flex flex-col justify-center md:w-1/2 space-y-2 md:space-y-4">
-            {["React.JS", "Next.JS", "TypeScript", "Java", "Git", "Github", "Python and its libraries"].map((item) => (
+            {["React.JS", "Next.JS", "TypeScript", "Java", "Git/Github", "Python and its libraries"].map((item) => (
               <span
                 key={item}
                 className="py-2 lg:py-3 px-3 text-xs lg:text-base rounded-lg text-center bg-[#10132E] opacity-70 lg:opacity-100"
